@@ -1,6 +1,5 @@
-package nDoms;
 import java.util.*;
-public class X {
+public class FindingNum {
 
 	public static void main(String[] args) {
 		
@@ -24,15 +23,19 @@ public class X {
 		
                System.out.println("\nWhich element you want to search : ");
 		
-               int x = sc.nextInt();
+               int element = sc.nextInt();
                boolean found = true;
                for(int i=0;i<array.length;i++) {
-	                     if(x == array[i]) {
+	                     if(element == array[i]) {
 		                         System.out.println("Element found at index : "+i);
                                  found = false;
                          break;}
                }
 		
-   if(found){System.out.println("Element not found in the list.");}
-   sc.close();}
+   if(found){
+	   System.out.println("Element not found in the list.");
+   }
+		
+   sc.close();
+	}
 }
