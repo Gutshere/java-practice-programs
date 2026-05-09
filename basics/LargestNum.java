@@ -1,4 +1,3 @@
-package ippo;
 import java.util.*;
 public class LargestNum {
 
