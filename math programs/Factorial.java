@@ -1,20 +1,20 @@
-package ippo;
 import java.util.*;
 public class FUCtorial {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-Scanner sc= new Scanner(System.in);
-System.out.println("Enter a number : ");
-int a = sc.nextInt();
-if(a<=1) {
-	System.out.println("The factorial of "+a+" is : 1");
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int num = sc.nextInt();
+		if(num <= 1) {
+			System.out.println("The factorial of "+num+" is : 1");
+		}
+		int num1 = 1;
+		int num2 = num;
+		while(num > 0) {
+		 num1 *= num;
+		 num--;
+		}
+		System.out.println("The factorial of "+num2+" is : "+num1);
+	}
 }
-int b=1;
-int c=a;
-while(a>0) {
- b *=a;
- a--;
-}
-System.out.println("The factorial of "+c+" is : "+b);
-	}}
