@@ -1,17 +1,17 @@
-package ippo;
 import java.util.*;
-public class SOD {
+public class SumOfDigits {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-Scanner sc = new Scanner(System.in);
-System.out.println("Enter a number : ");
-int a=sc.nextInt();
-int sum=0;
-while(a>0) {
-	sum += a%10;
-	a /= 10;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int num = sc.nextInt();
+		int sum = 0;
+		while(num > 0) {
+			sum += num%10;
+			num /= 10;
+		}
+		System.out.println("Sum of digits : "+sum);
+		sc.close();
+	}
 }
-System.out.println("Sum of digits : "+sum);
-sc.close();
-	}}
