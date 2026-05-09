@@ -1,5 +1,5 @@
 import java.util.*;
-public class SecondLarge {
+public class SecondLargeNum {
 
 	public static void main(String[] args) {
 		
