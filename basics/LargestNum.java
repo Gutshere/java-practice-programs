@@ -7,16 +7,16 @@ public class LargestNum {
 		
            while(true) {
 			   try { System.out.println("Enter three numbers : ");
-                     int a = sc.nextInt();
-                     int b = sc.nextInt();
-                     int c = sc.nextInt();
+                     int num1 = sc.nextInt();
+                     int num2 = sc.nextInt();
+                     int num3 = sc.nextInt();
 					
-                     if(a>b&&a>c) {
-	                     System.out.println("The largest number among them is : "+a);
+                     if(num1 > num2 && num1 > num3) {
+	                     System.out.println("The largest number among them is : "+num1);
                      }
-                     else if(b>c){System.out.println("The largest number among them is : "+b);}
-                     else if(a==b&&b==c) {System.out.println("All numbers are equal.");}
-                     else{System.out.println("The largest number among them is : "+c);}
+                     else if(num2 > num3){ System.out.println("The largest number among them is : "+num2);}
+                     else if(num1 == num2 && num2 == num3){ System.out.println("All numbers are equal.");}
+                     else{ System.out.println("The largest number among them is : "+num3);}
 			  }
               catch(InputMismatchException e) { System.out.println("Invalid input!");}
 			   
