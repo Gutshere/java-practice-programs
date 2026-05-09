@@ -1,9 +1,8 @@
-package arrlu;
 import java.util.*;
-public class CountEF {
+public class EfficiencyOfNumber {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the arry size : ");
 		int size=sc.nextInt();
@@ -22,4 +21,5 @@ public class CountEF {
 			}
 			System.out.println(box[i]+" occurs "+count+" time/s.");
 		}
-}}
+	}
+}
